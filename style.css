@@ -1,0 +1,92 @@
+/* CSS */
+
+.qv-object-Breadcrums ul.Bcrumb {
+    display: inline-block;
+    list-style: none;
+    margin-left: 30px;
+}
+
+.qv-object-Breadcrums ul.Bcrumb li {
+    float: right;
+    padding: 2px;
+    background-color: #ffffff;
+    border-radius: 50px;
+    position: relative;
+    margin-left: -30px;
+    transition: all 0.2s;
+    margin-top: 0px;
+}
+
+.qv-object-Breadcrums ul.Bcrumb li a {
+    overflow: hidden;
+    border-radius: 50px;
+    transition: all 0.2s;
+    text-decoration: none;
+    height: 22px;
+    width: 26px;
+    background-color: #ff4b4b;
+    text-align: center;
+    min-width: 22px;
+    display: block;
+    line-height: 25px;
+	padding-left: 25px;
+    padding-right: 5px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 900;
+}
+
+.qv-object-Breadcrums ul.Bcrumb li a i {
+    display: inline-block;
+    font-size: 14px;
+}
+
+.qv-object-Breadcrums ul.Bcrumb li a .text {
+    display: none;
+    opacity: 0;
+}
+
+.qv-object-Breadcrums ul.Bcrumb li a:hover i {
+    margin-right: 4px;
+}
+
+.qv-object-Breadcrums ul.Bcrumb li a:hover {
+    width: 110px;
+    background-color: #e60023;
+    padding-right: 4px;
+    padding-left: 16px;
+}
+
+.qv-object-Breadcrums ul.Bcrumb li a:hover .text {
+    display: inline-block;
+    opacity: 1;
+}
+
+.qv-object-Breadcrums ul.Bcrumb li:last-child a {
+    padding: 0;
+}
+
+
+/*
+ul.Bcrumb li:last-child:hover {
+  padding: 3px;
+  margin-top: 0;
+}
+
+ul.Bcrumb li:last-child:hover a {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+}
+span i:nth-child(1) {
+  color: #4267b2;
+}
+span i:nth-child(2) {
+  color: #1da1f2;
+}
+*/
+
+span i {
+    margin-left: 5px;
+    display: inline-block;
+}
