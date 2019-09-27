@@ -14,5 +14,5 @@ Crumb List
 Crumb List
 </h3>
 <ul>
-	<li>Custom CSS : : Standard CSS for container</li>
+	<li>Custom CSS : Standard CSS for container</li>
 </ul>
