@@ -19,8 +19,3 @@ Crumb List
 
 <h1>Demo</h1>
 <img src="./Breadcrumb.gif">
-
-<h1>Youtube Demo</h1>
-
-[![TableBox](http://img.youtube.com/vi/YiS-Mdx5yIM/0.jpg)](http://www.youtube.com/watch?v=YiS-Mdx5yIM "TableBox")
-
